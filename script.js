@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    nextBtns.forEach((button, index) => {
+    nextBtns.forEach((button) => {
         button.addEventListener('click', function () {
             if (validateStep(currentStep)) {
                 currentStep++;
